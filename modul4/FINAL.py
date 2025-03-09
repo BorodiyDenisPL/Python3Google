@@ -30,12 +30,12 @@ def update_file(import_file, remove_list):
   # Name loop variable `element`
   # Loop through `ip_addresses`
 
-  for element in ip_addresses:
+  for element in remove_list:
     
     # Build conditional statement
     # If current element is in `remove_list`,
     
-    if element in remove_list:
+    if element in ip_addresses:
 
       # then current element should be removed from `ip_addresses`
 
